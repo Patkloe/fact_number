@@ -1,0 +1,7 @@
+function fact(n){
+if(n === 1)
+  return n;
+else
+  return n*fact(n-1);
+}
+fact(7);
